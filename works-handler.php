@@ -142,7 +142,7 @@
                        '11-04-2017',
                        'Document Manager',
                        'http://docmanager.nafuutronics.com',
-                       array('docManager1.jpg', 'docManager2.jpg', 'docManager3.jpg', 'docManager4.jpg')
+                       array('doc-manager1.jpg', 'doc-manager2.jpg', 'doc-manager3.jpg', 'doc-manager4.jpg')
                    );
                return $portpolio;
                break;
@@ -159,7 +159,7 @@
                        '04-07-2018',
                        'ZanIsland Car Hire',
                        'http://zanislandcarhire.nafuutronics.com',
-                       array('zanIslandCarHire.jpg', 'zanIslandCarHire2.jpg', 'zanIslandCarHire3.jpg', 'zanIslandCarHire4.jpg')
+                       array('zan-island-car-hire.jpg', 'zan-island-car-hire2.jpg', 'zan-island-car-hire3.jpg', 'zan-island-car-hire4.jpg')
                    );
                return $portpolio;
                break;
@@ -279,7 +279,7 @@
                             Nafuu Accounting is a licensed service created and maintained by Nafuutronics, it has all features needed to manages business easily and efficiently, best of all our system is still growing to ensure all business needs apart from sales and purchase can be integrated directly within our system.
                         ',
                         'Web Application and Closed REST API',
-                        'Zanzibar Shipping Corporation (SHIPCO)',
+                        'Software as a Service (SaaS)',
                         '20-09-2020',
                         'Nafuu Accounting',
                         'https://nafuuaccounting.com',

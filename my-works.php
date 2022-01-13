@@ -55,7 +55,7 @@
                     <!-- work single item  -->
                     <div class="col-lg-4 col-md-6 col-sm-6 <?= $portfolio['typefilter'] ?>">
                         <div class="work_single_item">
-                            <img class="img-fluid" src="img/portfolio/<?= $portfolio['images'][0] ?>" alt="">
+                            <img class="img-fluid" width="400" height="400" src="img/portfolio/<?= $portfolio['images'][0] ?>" alt="">
                             <div class="work_info">
                                 <h6 title="White Lamp in White Wall"><?= $portfolio['project_name'] ?></h6>
                                 <p><?= $portfolio['year'] ?></p>
