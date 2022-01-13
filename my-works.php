@@ -1,5 +1,21 @@
 <?php include_once('works-handler.php') ?>
 
+<style>
+    /* .demo {
+        height: 50px !important;
+        clear: both !important;
+        float: right;
+    }
+
+    .demo a {
+        width: 100% !important;
+        margin: 20px;
+        clear: both !important;
+        font-size: 12px !important;
+        font-weight: bold;
+    } */
+</style>
+
 <div id="works" class="work_wrapper">
     <div class="row justify-content-center">
         <div class="col-lg-10">
@@ -57,9 +73,12 @@
                         <div class="work_single_item">
                             <img class="img-fluid" width="400" height="400" src="img/portfolio/<?= $portfolio['images'][0] ?>" alt="">
                             <div class="work_info">
-                                <h6 title="White Lamp in White Wall"><?= $portfolio['project_name'] ?></h6>
+                                <h6 title="<?= $portfolio['project_name'] ?>"><?= $portfolio['project_name'] ?></h6>
                                 <p><?= $portfolio['year'] ?></p>
-                                <a class="ajax-popup-link" href="work-details.php?<?= http_build_query($portfolio); ?>"><span class="ion-android-expand"></span></a>
+                                <!-- <a class="ajax-popup-link" href="work-details.php?<?= http_build_query($portfolio); ?>"><span class="ion-android-expand"></span></a> -->
+                                <a class="ajax-popup-link" href="work-details.php?<?= http_build_query($portfolio); ?>">
+                                    <span class="ion-android-expand"></span>&emsp;Click to View Description <?= $portfolio['demo_url'] != '#' ? ' and Demo' : '' ?> 
+                                </a>
                             </div>
                         </div>
                     </div>

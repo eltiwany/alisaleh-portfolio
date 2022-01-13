@@ -727,10 +727,10 @@ header {
 
 .work_info {
     background-color: #fff;
-    padding: 20px;
-    padding-left: 40px;
-    margin-left: 22px;
-    text-align: left;
+    /* padding: 20px; */
+    /* padding-left: 40px; */
+    /* margin-left: 22px; */
+    text-align: center;
     position: relative;
     transition: .3s;
     -webkit-transition: .3s;
@@ -740,22 +740,24 @@ header {
 }
 
 .work_info a {
-	font-size: 24px;
-	color: #fff;
-	position: absolute;
-	height: 44px;
-	width: 44px;
-	background: #111;
-	line-height: 44px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    height: 100% !important;
+    width: 100%;
+    background: #06386e;
+    line-height: 44px;
     text-align: center;
-    left: -22px;
-	top: 50%;
-    margin-top: -22px;
+    /* top: 0; */
+    right: 0;
+    /* margin-top: -22px; */
     z-index: 1;
+    /* white-space: nowrap; */
 }
 
 .work_info a:hover {
-    color: #111;
+    color: #fff;
 }
 
 .work_info a::after {
@@ -763,7 +765,7 @@ header {
     content: "";
     height: 100%;
     width: 0;
-    background-color: #fff;
+    background-color: #007bff;
     top: 0;
     right: 0;
     transition: .3s;
@@ -804,7 +806,7 @@ header {
     height: 1px;
     width: 20px;
     top: 49%;
-    left: 0;
+    left: 30%;
     background-color: #000;
     transition: .3s;
     -webkit-transition: .3s;
