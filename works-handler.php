@@ -174,7 +174,7 @@
                        'Online Ticketing System for BRT',
                        'Abubakar (FYP)',
                        '04-01-2019',
-                       'BRT TICKETING SYSTEN',
+                       'BRT Ticketing System',
                        'http://irims.nafuutronics.com',
                        array('irims.png', 'irims2.jpg', 'irims3.jpg', 'irims4.jpg')
                    );
